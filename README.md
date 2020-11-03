@@ -1,10 +1,19 @@
-# Kostka Rubika (ang. Rubik's Cube)
+# Rubik's Cube
+
+The program is a simulation of a puzzle called Rubik's Cube.
+
+The program executes a sequence of commands rotating layers of the cube with dimensions N x N x N. On request it prints the current state of the cube.
+
+Some detailed information about the program in Polish can be found below.
+
+
+# Kostka Rubika 
 ## Wprowadzenie
 Program jest symulacją łamigłówki zwanej Kostką Rubika.
 
-Program wykonuje ciąg rozkazów obracających warstwy kostki rozmiaru N x N x N. Program zaczyna od kostki ułożonej. Na życzenie drukuje aktualny stan kostki.
+Program wykonuje ciąg rozkazów obracających warstwy kostki o wymiarach N x N x N. Na życzenie drukuje aktualny stan kostki.
 
-Stała symboliczna N, określająca rozmiar kostki, ma przypisaną `5` jako wartość domyślną. Inną wartość stałej można wybrać podczas kompilacji programu za pomocą opcji `-DN=wartość`.
+Inną wartość stałej N (domyślnie N = 5) można wybrać podczas kompilacji programu za pomocą opcji `-DN=wartość`.
 
 ## Postać danych
 Dane programu to ciąg rozkazów obrotu warstw i wydruku aktualnego stanu kostki, zakończony kropką.
